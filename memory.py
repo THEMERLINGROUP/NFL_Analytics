@@ -8,3 +8,4 @@ d = {'Bitcoin':B}
 sys.getrefcount(b)
 del b
 gc.enable()
+#manual = gc.collect()
