@@ -7,6 +7,7 @@ def function_tom_brady(stats):
         print(x)
 statistics = ["Yards:4990", "TD:40", "INT:12", "Passer Rating:100.5"]
 function_tom_brady(statistics)
+#Antonio Brown no longer on team
 def antoniobrown(y):
     return y+y
 yards = (121,17,63,124,93,101,26)

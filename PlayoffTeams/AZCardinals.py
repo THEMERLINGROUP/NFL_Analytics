@@ -3,7 +3,7 @@ Kyler_Murray = [{'Yards':3547, 'Passer Rating':100.9},{'Touchdowns':23, 'Interce
 td_int_ratio = lambda touchdowns, interceptions: touchdowns/interceptions
 print(td_int_ratio(23,10))
 clinched_playoffs = True
-won_division = False #TBD in WEEK18
+won_division = False
 Team_Leaders = [{'Passing Leader':'Kyler Murray', 'Yards':'3547'}, {'Rushing Leader':'James Conner', 'Yards':700}, {'Receiving Leader':'Christian Kirk', 'Yards':939},
 {'Tackle Leader':'Jalen Thompson', 'Tackles':75}, {'Sacks Leader':'Markus Golen', 'Sacks':11}, {'INT Leader':'Byron Murphy', 'INTs':4}]
 Turnover_Ratio = +11

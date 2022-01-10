@@ -1,4 +1,6 @@
 from itertools import groupby, accumulate
+import gc
+gc.enable()
 Fastest_Ball_Carriers= [{'player':'Jonathan Taylor', 'speed':22.13}, {'player':'Marquez Valdes-Scantling', 'speed':22.09},
 {'player':'Patrick Surtain', 'speed':22.07}, {'player':'Jonathan Taylor', 'speed':22.05}, {'player':'Jonathan Taylor', 'speed':21.83}]
 group_speed = groupby(Fastest_Ball_Carriers, key=lambda x:x['speed'])
@@ -22,4 +24,5 @@ Last_Five_Games = [{'Result':'Loss', 'Score':'Bucs 38 - Colts 31'}, {'Result':'W
 group_sports_obj=groupby(Last_Five_Games, key=lambda x:x['Score'])
 for key, value in group_sports_obj:
     print(key, list(value))
-in_playoffs = False #WIN against Houston in Week 18 and IN
+in_playoffs = False
+del in_playoffs

@@ -29,7 +29,7 @@ yards_acc = accumulate(Herbert_total_YDs)
 print(list(yards_acc))
 td_int_ratio = lambda td,int:td/int
 print(td_int_ratio(66,24))
-in_playoffs = False #PLAY Raiders on SNF WIN and IN
+in_playoffs = False
 beat_raiders_on_SNF = True
 if(beat_raiders_on_SNF == True):
     print("Chargers are in the Playoffs")

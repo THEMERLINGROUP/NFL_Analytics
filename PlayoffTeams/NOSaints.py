@@ -6,4 +6,4 @@ for key, value in group_QBs:
 NO_Vs_Opponents = [{'First Downs':285, 'First Downs Opponent':291}, {'Total Offensive Yards':4808, 'Opponents Offensive Yards':5153}, {'Sacks':43, 'Opponents Sacks':36}, {'TDs':40, 'Opponents TDs':33}]
 print(NO_Vs_Opponents)
 Turnover_Ratio = +4
-in_playoffs = False #NEED 49ers loss and Win over ATL
+in_playoffs = False

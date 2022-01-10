@@ -1,4 +1,5 @@
 from itertools import groupby, accumulate
+import gc
 Team_Rankings = [{'Passing Yards':274.7, 'Rank':6}, {'Rushing Yards':90.2, 'Rank':28}, {'Points For':21.2, 'Rank':18},
 {'Points Against':25.4, 'Rank':24}]
 Team = groupby(Team_Rankings, key=lambda x:x['Rank'])
@@ -29,3 +30,6 @@ if(beat_chargers_on_SNF == True):
     print("Raiders are in the Playoffs")
 else:
     print("Chargers are in the playoffs")
+del in_playoffs
+gc.enable()
+playoff_team = True

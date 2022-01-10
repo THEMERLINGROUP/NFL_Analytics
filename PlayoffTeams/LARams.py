@@ -12,4 +12,4 @@ Rams_Vs_Opponents = [{'First Downs':336, 'First Downs Opponent':324}, {'Total Of
 print(Rams_Vs_Opponents)
 Turnover_Ratio = +2
 made_playoffs = True
-won_division = False #TBD in Week 18
+won_division = True
