@@ -9,4 +9,4 @@ print(Titans_Vs_Opponents)
 Turnover_Ratio = -3
 made_playoffs = True
 won_division = True
-clinched_number_one_seed = False #WIN in WEEK 18 and they clinch number one seed
+clinched_number_one_seed = True
